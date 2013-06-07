@@ -1,0 +1,1 @@
+{  "run_list":[    "iptables-stop",    "yum::yum",    "yumsetup",    "mariadb"  ]}

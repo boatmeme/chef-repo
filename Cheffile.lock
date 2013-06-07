@@ -1,0 +1,8 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    yum (2.2.2)
+
+DEPENDENCIES
+  yum (>= 0)
+
