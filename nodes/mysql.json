@@ -1,1 +1,1 @@
-{  "run_list":[    "recipe[mysql::default]"  ]}
+{  "run_list":[    "yum::yum",    "recipe[mysql::default]"  ]}
