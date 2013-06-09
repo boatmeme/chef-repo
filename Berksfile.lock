@@ -1,8 +1,13 @@
 {
-  "sha": "cba08f94ddc504109501d0651a3fa5e67c638676",
+  "sha": "56185f9d814877d737a182f6c223ddebd8156386",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
+    },
+    "redis": {
+      "locked_version": "0.0.4",
+      "git": "git://github.com/kentaro/chef-redis.git",
+      "ref": "54a20fe89da33812034e64ab69a371e7b2e918d4"
     }
   }
 }
