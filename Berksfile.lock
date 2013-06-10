@@ -1,21 +1,25 @@
 {
-  "sha": "2f7684efb32a13a8e8e31aa97e52ac7b43d350a9",
+  "sha": "0ce55d4d7147c3009b3629941f712f763abcef00",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
-    },
-    "redis": {
-      "locked_version": "0.0.4",
-      "git": "git://github.com/kentaro/chef-redis.git",
-      "ref": "54a20fe89da33812034e64ab69a371e7b2e918d4"
     },
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "git@github.com:treasure-data/chef-td-agent.git",
       "ref": "ee26bee34c29457aafce2f900ce2d0e04d9ff792"
     },
+    "redisio": {
+      "locked_version": "1.5.0",
+      "git": "https://github.com/brianbianco/redisio",
+      "ref": "551eaeb3906fc1a6b430e7a8718b87a35fc3c895"
+    },
     "apt": {
-      "locked_version": "1.10.0"
+      "locked_version": "2.0.0"
+    },
+    "ulimit": {
+      "locked_version": "0.2.0",
+      "constraint": ">= 0.1.2"
     }
   }
 }
