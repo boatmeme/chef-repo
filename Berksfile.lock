@@ -1,5 +1,5 @@
 {
-  "sha": "56185f9d814877d737a182f6c223ddebd8156386",
+  "sha": "2f7684efb32a13a8e8e31aa97e52ac7b43d350a9",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
@@ -8,6 +8,14 @@
       "locked_version": "0.0.4",
       "git": "git://github.com/kentaro/chef-redis.git",
       "ref": "54a20fe89da33812034e64ab69a371e7b2e918d4"
+    },
+    "td-agent": {
+      "locked_version": "0.0.1",
+      "git": "git@github.com:treasure-data/chef-td-agent.git",
+      "ref": "ee26bee34c29457aafce2f900ce2d0e04d9ff792"
+    },
+    "apt": {
+      "locked_version": "1.10.0"
     }
   }
 }
