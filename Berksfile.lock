@@ -1,5 +1,5 @@
 {
-  "sha": "0ce55d4d7147c3009b3629941f712f763abcef00",
+  "sha": "6bc121adf9072bb9c7b25c47f866af38263064ec",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
@@ -14,12 +14,24 @@
       "git": "https://github.com/brianbianco/redisio",
       "ref": "551eaeb3906fc1a6b430e7a8718b87a35fc3c895"
     },
+    "mysql": {
+      "locked_version": "3.0.3",
+      "git": "https://github.com/opscode-cookbooks/mysql.git",
+      "ref": "6cae9333fb9ff5ed175bfa4d2430a74d215630e1"
+    },
     "apt": {
       "locked_version": "2.0.0"
     },
     "ulimit": {
       "locked_version": "0.2.0",
       "constraint": ">= 0.1.2"
+    },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0",
+      "constraint": "> 1.1.0"
     }
   }
 }

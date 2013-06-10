@@ -1,1 +1,1 @@
-{  "run_list":[    "yum::yum",    "recipe[mysql::default]"  ]}
+{  "mysql": {    "server_root_password": "password",    "server_repl_password": "password",    "server_debian_password": "password"  },  "yum": {    "remi": {      "includepkgs": "compat-mysql* mysql*"    }  },  "run_list":[    "yum::yum",    "yum::remi",    "mysql::server",    "mysql::client"  ]}
