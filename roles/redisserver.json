@@ -1,0 +1,19 @@
+{
+ "name": "redisserver",
+ "default_attributes": { },
+ "override_attributes": { },
+ "json_class": "Chef::Role",
+ "description": "",
+ "chef_type": "role",
+  "run_list": [
+    "iptables-stop",
+    "yum",
+    "redisio::install",
+    "redisio::enable",
+    "redhat-lsb",
+    "td-agent",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install"
+  ]
+}

@@ -1,1 +1,1 @@
-{  "run_list": [    "iptables-stop",    "yum",    "redisio::install",    "redisio::enable",    "redhat-lsb",    "td-agent",    "git::source"  ]}
+{  "run_list": "role[redisserver]"}
