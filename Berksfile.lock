@@ -2,7 +2,7 @@
   "sha": "3c251ff198ecb45dd9b864cde7c33a2613f3680a",
   "sources": {
     "yum": {
-      "locked_version": "2.2.2"
+      "locked_version": "2.2.4"
     },
     "git": {
       "locked_version": "2.5.2"
@@ -18,7 +18,7 @@
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "git@github.com:onigra/chef-td-agent.git",
-      "ref": "6559b581875ca8194b03a8cb49166ded2a151998"
+      "ref": "8843133d5874e83d3bc1ad7edd7dd1015955af61"
     },
     "dmg": {
       "locked_version": "1.1.0"
