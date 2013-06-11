@@ -1,8 +1,11 @@
 {
-  "sha": "3fb7af89b8789e601cb8dbbd77947ed7b8b3f5cb",
+  "sha": "a65c0c584d1ed6e29d2bb1a68bd97ef12958457f",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
+    },
+    "git": {
+      "locked_version": "2.5.2"
     },
     "redisio": {
       "locked_version": "1.5.0",
@@ -17,7 +20,23 @@
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "git@github.com:onigra/chef-td-agent.git",
-      "ref": "706a4415cf01113d3924a4b6a5df4db963a776dd"
+      "ref": "6559b581875ca8194b03a8cb49166ded2a151998"
+    },
+    "dmg": {
+      "locked_version": "1.1.0"
+    },
+    "build-essential": {
+      "locked_version": "1.4.0"
+    },
+    "windows": {
+      "locked_version": "1.9.0"
+    },
+    "chef_handler": {
+      "locked_version": "1.1.4"
+    },
+    "runit": {
+      "locked_version": "1.1.4",
+      "constraint": ">= 1.0.0"
     },
     "ulimit": {
       "locked_version": "0.2.0",
@@ -25,10 +44,6 @@
     },
     "openssl": {
       "locked_version": "1.0.2"
-    },
-    "build-essential": {
-      "locked_version": "1.4.0",
-      "constraint": "> 1.1.0"
     },
     "apt": {
       "locked_version": "2.0.0"
