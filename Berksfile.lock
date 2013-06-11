@@ -1,5 +1,5 @@
 {
-  "sha": "a65c0c584d1ed6e29d2bb1a68bd97ef12958457f",
+  "sha": "3c251ff198ecb45dd9b864cde7c33a2613f3680a",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
@@ -7,15 +7,13 @@
     "git": {
       "locked_version": "2.5.2"
     },
+    "mysql": {
+      "locked_version": "3.0.2"
+    },
     "redisio": {
       "locked_version": "1.5.0",
       "git": "https://github.com/brianbianco/redisio",
       "ref": "551eaeb3906fc1a6b430e7a8718b87a35fc3c895"
-    },
-    "mysql": {
-      "locked_version": "3.0.3",
-      "git": "git@github.com:onigra/mysql.git",
-      "ref": "6cae9333fb9ff5ed175bfa4d2430a74d215630e1"
     },
     "td-agent": {
       "locked_version": "0.0.1",
@@ -38,12 +36,12 @@
       "locked_version": "1.1.4",
       "constraint": ">= 1.0.0"
     },
+    "openssl": {
+      "locked_version": "1.0.2"
+    },
     "ulimit": {
       "locked_version": "0.2.0",
       "constraint": ">= 0.1.2"
-    },
-    "openssl": {
-      "locked_version": "1.0.2"
     },
     "apt": {
       "locked_version": "2.0.0"
