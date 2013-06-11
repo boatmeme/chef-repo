@@ -1,13 +1,8 @@
 {
-  "sha": "6bc121adf9072bb9c7b25c47f866af38263064ec",
+  "sha": "3fb7af89b8789e601cb8dbbd77947ed7b8b3f5cb",
   "sources": {
     "yum": {
       "locked_version": "2.2.2"
-    },
-    "td-agent": {
-      "locked_version": "0.0.1",
-      "git": "git@github.com:treasure-data/chef-td-agent.git",
-      "ref": "ee26bee34c29457aafce2f900ce2d0e04d9ff792"
     },
     "redisio": {
       "locked_version": "1.5.0",
@@ -16,11 +11,13 @@
     },
     "mysql": {
       "locked_version": "3.0.3",
-      "git": "https://github.com/opscode-cookbooks/mysql.git",
+      "git": "git@github.com:onigra/mysql.git",
       "ref": "6cae9333fb9ff5ed175bfa4d2430a74d215630e1"
     },
-    "apt": {
-      "locked_version": "2.0.0"
+    "td-agent": {
+      "locked_version": "0.0.1",
+      "git": "git@github.com:onigra/chef-td-agent.git",
+      "ref": "706a4415cf01113d3924a4b6a5df4db963a776dd"
     },
     "ulimit": {
       "locked_version": "0.2.0",
@@ -32,6 +29,9 @@
     "build-essential": {
       "locked_version": "1.4.0",
       "constraint": "> 1.1.0"
+    },
+    "apt": {
+      "locked_version": "2.0.0"
     }
   }
 }
