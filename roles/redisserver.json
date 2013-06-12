@@ -8,6 +8,9 @@
      "oracle": {
        "accept_oracle_download_terms": "true"
      }
+   },
+   "elasticsearch": {
+     "cluster_name": "elasticsearch_test_with_chef"
    }
  },
  "json_class": "Chef::Role",
@@ -23,6 +26,7 @@
     "git::source",
     "ruby-rbenv",
     "ruby-rbenv::install",
-    "java"
+    "java",
+    "elasticsearch"
   ]
 }
