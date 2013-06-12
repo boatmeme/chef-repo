@@ -1,5 +1,5 @@
 {
-  "sha": "3c251ff198ecb45dd9b864cde7c33a2613f3680a",
+  "sha": "f977466fbc55dc3800b0d310fd2a178c0684f1e2",
   "sources": {
     "yum": {
       "locked_version": "2.2.4"
@@ -9,6 +9,9 @@
     },
     "mysql": {
       "locked_version": "3.0.2"
+    },
+    "java": {
+      "locked_version": "1.11.4"
     },
     "redisio": {
       "locked_version": "1.5.0",

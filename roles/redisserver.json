@@ -1,7 +1,15 @@
 {
  "name": "redisserver",
  "default_attributes": { },
- "override_attributes": { },
+ "override_attributes": {
+   "java": {
+     "install_flavor": "oracle",
+     "jdk_version": "7",
+     "oracle": {
+       "accept_oracle_download_terms": "true"
+     }
+   }
+ },
  "json_class": "Chef::Role",
  "description": "",
  "chef_type": "role",
@@ -14,6 +22,7 @@
     "td-agent",
     "git::source",
     "ruby-rbenv",
-    "ruby-rbenv::install"
+    "ruby-rbenv::install",
+    "java"
   ]
 }
