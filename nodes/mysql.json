@@ -1,1 +1,0 @@
-{  "td_agent": {    "host": "192.168.50.18"  },  "run_list": "role[mysqlserver]"}
