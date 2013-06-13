@@ -1,0 +1,20 @@
+{
+  "name": "ruby-install",
+  "default_attributes": { },
+  "override_attributes": {
+    "ruby-rbenv": {
+      "user": "root",
+      "build": "2.0.0-p195"
+    }
+  },
+  "json_class": "Chef::Role",
+  "description": "",
+  "chef_type": "role",
+  "run_list": [
+    "yum",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install",
+    "ruby-rbenv::gem_install"
+  ]
+}
