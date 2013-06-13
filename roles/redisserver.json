@@ -26,6 +26,7 @@
     "git::source",
     "ruby-rbenv",
     "ruby-rbenv::install",
+    "ruby-rbenv::gem_install",
     "java",
     "elasticsearch"
   ]
