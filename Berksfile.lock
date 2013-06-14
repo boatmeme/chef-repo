@@ -1,5 +1,5 @@
 {
-  "sha": "bf654b7f946dc9b41009623d80661dcde483a9ab",
+  "sha": "0404a498719c756ef52bb6af00e73d83b02375cc",
   "sources": {
     "yum": {
       "locked_version": "2.2.4"
@@ -27,6 +27,11 @@
       "locked_version": "0.3.0",
       "git": "git@github.com:elasticsearch/cookbook-elasticsearch.git",
       "ref": "be26b51f6c781536229e80ffd27e2e03970353a4"
+    },
+    "chef-kibana": {
+      "locked_version": "0.1.6",
+      "git": "git@github.com:onigra/chef-kibana.git",
+      "ref": "6eb150a72cb08ecc1f15a87e83fe004ea31d0a7f"
     },
     "dmg": {
       "locked_version": "1.1.0"

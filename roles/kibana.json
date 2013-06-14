@@ -1,0 +1,16 @@
+{
+  "name": "kibana",
+  "default_attributes": { },
+  "override_attributes": {
+    "kibana": {
+      "interface": "0.0.0.0",
+      "rubyversion": "2.0.0"
+    }
+  },
+  "json_class": "Chef::Role",
+  "description": "",
+  "chef_type": "role",
+  "run_list": [ 
+    "chef-kibana" 
+  ]
+}
