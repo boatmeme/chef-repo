@@ -21,7 +21,7 @@
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "git@github.com:onigra/chef-td-agent.git",
-      "ref": "ff4d188f2dc18df4188a467190b211054b3611f9"
+      "ref": "52d717b0567c63f10fd4c80b87d2d6d13a0510ff"
     },
     "elasticsearch": {
       "locked_version": "0.3.0",
@@ -40,13 +40,13 @@
       "locked_version": "1.4.0"
     },
     "windows": {
-      "locked_version": "1.9.0"
+      "locked_version": "1.10.0"
     },
     "chef_handler": {
       "locked_version": "1.1.4"
     },
     "runit": {
-      "locked_version": "1.1.4",
+      "locked_version": "1.1.6",
       "constraint": ">= 1.0.0"
     },
     "openssl": {
@@ -66,7 +66,7 @@
       "locked_version": "0.7.1"
     },
     "ark": {
-      "locked_version": "0.2.4"
+      "locked_version": "0.3.0"
     }
   }
 }
