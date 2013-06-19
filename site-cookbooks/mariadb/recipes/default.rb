@@ -7,13 +7,13 @@
 # All rights reserved - Do Not Redistribute
 #
 yum_key 'RPM-GPG-KEY-MariaDB' do
-  url "https://yum.mariadb.org/RPM-GPG-KEY-MariaDB"
+  url "http://yum.mariadb.org/RPM-GPG-KEY-MariaDB"
   action :add
 end
  
 yum_repository 'MariaDB' do
   repo_name 'MariaDB'
-  url "http://yum.mariadb.org/5.5.31/centos6-amd64"
+  url "http://yum.mariadb.org/10.0.3/centos6-amd64"
   key 'RPM-GPG-KEY-MariaDB'
   action :create
 end
