@@ -8,8 +8,7 @@
 #
 gems = [
   'fluent-plugin-mysqlslowquery',
-  'fluent-plugin-redis',
-  'fluent-plugin-elasticsearch'
+  'fluent-plugin-mysql'
 ]
 
 gems.each do |g|
