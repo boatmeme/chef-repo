@@ -27,8 +27,7 @@
     "mysql::server",
     "mysql::client",
     "redhat-lsb",
-    "td-agent::redis-and-elasticsearch",
-    "install_td_agent_gems",
+    "td-agent::mysqlserver",
     "change_permission_slow_log_file",
     "td-agent::start"
   ]
