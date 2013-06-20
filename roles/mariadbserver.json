@@ -1,0 +1,16 @@
+{
+  "name": "mariadbserver",
+  "default_attributes": { },
+  "override_attributes": { },
+  "json_class": "Chef::Role",
+  "description": "",
+  "chef_type": "role",
+  "run_list": [
+    "iptables-stop",
+    "yum::yum",
+    "mariadb",
+    "td-agent::mariadb",
+    "install_td_agent_gems::mariadb",
+    "td-agent::start"
+  ]
+}

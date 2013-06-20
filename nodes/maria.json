@@ -1,1 +1,1 @@
-{  "run_list":[    "iptables-stop",    "yum::yum",    "yumsetup",    "mariadb"  ]}
+{  "run_list": "role[mariadbserver]"}
