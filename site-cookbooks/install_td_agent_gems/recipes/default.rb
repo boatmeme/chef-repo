@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 gems = [
-  'fluent-plugin-mysqlslowquery',
+  'fluent-plugin-mysqlslowquerylog',
   'fluent-plugin-mysql'
 ]
 
