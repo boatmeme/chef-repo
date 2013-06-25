@@ -8,6 +8,10 @@
   "run_list": [
     "iptables-stop",
     "yum::yum",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install",
+    "ruby-rbenv::gem_install",
     "mariadb",
     "td-agent::mariadb",
     "install_td_agent_gems::mariadb",
