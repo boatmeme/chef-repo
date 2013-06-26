@@ -7,7 +7,8 @@
 # All rights reserved - Do Not Redistribute
 install_gem_list = [
   "bundler",
-  "pry"
+  "pry",
+  "zeus"
 ]
 
 install_gem_list.each do |g|
