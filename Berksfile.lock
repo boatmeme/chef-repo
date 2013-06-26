@@ -21,7 +21,7 @@
     "td-agent": {
       "locked_version": "0.0.1",
       "git": "git@github.com:onigra/chef-td-agent.git",
-      "ref": "669180754232990b8d8688c38aefd618dd6fed87"
+      "ref": "41fa5df786f4118fd10ed8cb0fb82a0f90797f7c"
     },
     "elasticsearch": {
       "locked_version": "0.3.0",
