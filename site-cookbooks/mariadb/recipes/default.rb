@@ -18,9 +18,17 @@ yum_repository 'MariaDB' do
   action :create
 end
  
-package 'MariaDB-devel'
-package 'MariaDB-client'
-package 'MariaDB-server'
+package 'MariaDB-devel' do
+  action :install
+end
+
+package 'MariaDB-client' do
+  action :install
+end
+
+package 'MariaDB-server' do
+  action :install
+end
 
 service "mysql" do
   supports status: true, restart: true, reload: true
