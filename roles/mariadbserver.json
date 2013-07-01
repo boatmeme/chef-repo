@@ -18,7 +18,6 @@
     "ruby-rbenv::gem_install",
     "mariadb",
     "td-agent::mariadb",
-    "td-agent::gem-update",
     "install_td_agent_gems::mariadb",
     "td-agent::start"
   ]

@@ -20,6 +20,14 @@ git "/usr/local/rbenv" do
   group "rbenv"
 end
 
+git "/usr/local/rbenv" do
+  repository "git://github.com/sstephenson/rbenv.git"
+  reference "master"
+  action :sync
+  user "#{node.user}"
+  group "rbenv"
+end
+
 directory "/usr/local/rbenv/plugins" do
   owner "#{node.user}"
   group "rbenv"
@@ -41,3 +49,10 @@ git "/usr/local/rbenv/plugins/ruby-build" do
   group "rbenv"
 end
 
+git "/usr/local/rbenv/plugins/ruby-build" do
+  repository "git://github.com/sstephenson/ruby-build.git"
+  reference "master"
+  action :sync
+  user "#{node.user}"
+  group "rbenv"
+end
