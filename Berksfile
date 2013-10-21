@@ -1,7 +1,7 @@
 site :opscode
 
 cookbook 'yum'
-cookbook 'git'
+cookbook 'git', git: 'git@github.com:onigra/git.git'
 cookbook 'mysql'
 cookbook 'java'
 cookbook 'redisio', git: 'https://github.com/brianbianco/redisio'
