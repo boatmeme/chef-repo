@@ -1,0 +1,23 @@
+{
+  "name": "altria",
+  "default_attributes": { },
+  "override_attributes": {
+    "git": {
+      "version": "1.8.3.4"
+    }
+  },
+  "json_class": "Chef::Role",
+  "description": "This is just a test role, no big deal.",
+  "chef_type": "role",
+  "run_list": [
+    "iptables-stop",
+    "yum::yum",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install",
+    "ruby-rbenv::gem_install",
+    "mariadb",
+    "redisio::install",
+    "redisio::enable"
+  ]
+}
