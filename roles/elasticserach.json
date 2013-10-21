@@ -1,0 +1,33 @@
+{
+ "name": "redisserver",
+ "default_attributes": { },
+ "override_attributes": {
+   "java": {
+     "install_flavor": "oracle",
+     "jdk_version": "7",
+     "oracle": {
+       "accept_oracle_download_terms": "true"
+     }
+   },
+   "elasticsearch": {
+     "cluster_name": "elasticsearch_test_with_chef"
+   }
+ },
+ "json_class": "Chef::Role",
+ "description": "",
+ "chef_type": "role",
+  "run_list": [
+    "iptables-stop",
+    "yum",
+    "redisio::install",
+    "redisio::enable",
+    "redhat-lsb",
+    "td-agent",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install",
+    "ruby-rbenv::gem_install",
+    "java",
+    "elasticsearch"
+  ]
+}
