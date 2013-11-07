@@ -1,0 +1,28 @@
+{
+ "name": "redisserver",
+ "default_attributes": { },
+ "override_attributes": {
+   "redisio": {
+     "default_settings": {
+       "slaveof": {
+         "address": "192.168.50.18",
+         "port": "6379"
+       }
+     }
+   }
+ },
+ "json_class": "Chef::Role",
+ "description": "",
+ "chef_type": "role",
+  "run_list": [
+    "iptables-stop",
+    "yum",
+    "redisio::install",
+    "redisio::enable",
+    "redhat-lsb",
+    "git::source",
+    "ruby-rbenv",
+    "ruby-rbenv::install",
+    "ruby-rbenv::gem_install"
+  ]
+}
