@@ -1,5 +1,5 @@
 {
-  "sha": "e7a6586808ef607407d6933da646917b9990cd06",
+  "sha": "516e9033858cd34b306f04b820d877edb60da968",
   "sources": {
     "yum": {
       "locked_version": "2.3.4"
@@ -35,8 +35,11 @@
       "git": "git@github.com:onigra/chef-kibana.git",
       "ref": "6eb150a72cb08ecc1f15a87e83fe004ea31d0a7f"
     },
+    "phantomjs": {
+      "locked_version": "1.0.3"
+    },
     "dmg": {
-      "locked_version": "2.0.4"
+      "locked_version": "2.0.8"
     },
     "build-essential": {
       "locked_version": "1.4.2"
@@ -48,7 +51,7 @@
       "locked_version": "1.1.4"
     },
     "runit": {
-      "locked_version": "1.3.0",
+      "locked_version": "1.4.0",
       "constraint": ">= 1.0.0"
     },
     "openssl": {
@@ -56,14 +59,14 @@
       "constraint": "~> 1.1"
     },
     "aws": {
-      "locked_version": "0.101.6"
+      "locked_version": "1.0.0"
     },
     "ulimit": {
-      "locked_version": "0.3.1",
+      "locked_version": "0.3.2",
       "constraint": ">= 0.1.2"
     },
     "apt": {
-      "locked_version": "2.2.1"
+      "locked_version": "2.3.0"
     },
     "xml": {
       "locked_version": "1.2.0"
@@ -73,6 +76,12 @@
     },
     "ark": {
       "locked_version": "0.4.0"
+    },
+    "chocolatey": {
+      "locked_version": "0.0.5"
+    },
+    "powershell": {
+      "locked_version": "1.1.2"
     }
   }
 }
