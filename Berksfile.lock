@@ -1,5 +1,4 @@
 {
-  "sha": "516e9033858cd34b306f04b820d877edb60da968",
   "sources": {
     "yum": {
       "locked_version": "2.3.4"
@@ -51,19 +50,16 @@
       "locked_version": "1.1.4"
     },
     "runit": {
-      "locked_version": "1.4.0",
-      "constraint": ">= 1.0.0"
+      "locked_version": "1.4.0"
     },
     "openssl": {
-      "locked_version": "1.1.0",
-      "constraint": "~> 1.1"
+      "locked_version": "1.1.0"
     },
     "aws": {
       "locked_version": "1.0.0"
     },
     "ulimit": {
-      "locked_version": "0.3.2",
-      "constraint": ">= 0.1.2"
+      "locked_version": "0.3.2"
     },
     "apt": {
       "locked_version": "2.3.0"
