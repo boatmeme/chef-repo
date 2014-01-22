@@ -6,7 +6,7 @@
     "git": {
       "locked_version": "2.7.1",
       "git": "git@github.com:onigra/git.git",
-      "ref": "da1f357c4546a0de374b64ec044b9da58066916c"
+      "ref": "3c1ea211c9dd98dca1a6f0c18103d19c14a0bdcb"
     },
     "mysql": {
       "locked_version": "3.0.12"
@@ -25,9 +25,9 @@
       "ref": "0ca7996ebed62c0dfe62f08a662af89b2b165f09"
     },
     "elasticsearch": {
-      "locked_version": "0.3.4",
+      "locked_version": "0.3.7",
       "git": "git@github.com:elasticsearch/cookbook-elasticsearch.git",
-      "ref": "42db58c0e672fbac407245e935406b3d0f3082d6"
+      "ref": "e89d3ef6762847f4088dbbfc9b439a7274265399"
     },
     "chef-kibana": {
       "locked_version": "0.1.6",

@@ -4,7 +4,7 @@
   "override_attributes": {
     "ruby-rbenv": {
       "user": "root",
-      "build": "2.0.0-p195"
+      "build": "2.1.0"
     }
   },
   "json_class": "Chef::Role",
