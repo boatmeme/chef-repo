@@ -1,5 +1,4 @@
 site :opscode
-
 cookbook 'yum'
 cookbook 'git', git: 'git@github.com:onigra/git.git'
 cookbook 'mysql'
